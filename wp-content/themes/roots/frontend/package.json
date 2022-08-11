@@ -1,0 +1,28 @@
+{
+  "name": "roots",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "dmyievgen",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn webpack",
+    "start": "yarn webpack --watch",
+    "lint": "eslint . --ext js",
+    "lint:fix": "eslint . --ext js --fix"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.54.4",
+    "sass-loader": "^13.0.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
